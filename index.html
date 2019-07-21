@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=’pt-BR’>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <!-- Link para arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+   </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <h1>Twitter</h1>
+    </header>
+    <!-- Principal -->
+    <main class="main">
+      <!-- Perfil -->
+      <section class="profile section-border">
+        <img class="profile-picture" src="images/twitter_01.png">
+        <h3 class="profile-name">Lidiane</h3>
+        <p class="profile-user">@Lidiane</p>
+      </section>
+      <!-- Escrever tweet -->
+      <section class="tweet section-border">
+        <form class="tweet-form">
+          <textarea class="tweet-input" rows="3" cols="65" placeholder="O que está acontecendo?"></textarea>
+          <span class="character-counter">140</span>
+          <hr class="line">
+          <input class="tweet-button" type="submit" value="Tweetar" disabled="disabled">
+        </form>
+      </section>
+      <!-- Feed -->
+      <section class="feed section-border">
+        <h3 class="feed-title">Visualizar recado:</h3>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
